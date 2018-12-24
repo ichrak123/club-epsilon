@@ -1,32 +1,137 @@
-.App {
-  text-align: center;
+
+body {
+  font-family:  sans-serif ;
+}
+img {
+  width: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.landing {
+  position: relative;
+  background: url('http://www.clubepsilon.net/wp-content/uploads/2018/08/fond-1700x750.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -26px;
+  margin-bottom: -50px;
+  padding-top: 110px ; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-inner {
+  padding-top: 80px;
+}
+.display-3 {
+  font-family: Cambria, Georgia, serif;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.background {
+  background-color: #F8F9FA;
+  margin-bottom: -25px ;
+}
+ul {
+  margin-left : 300px ;
+}
+.service {
+  padding-left : 1px ;
+}
+.lead {
+  width : 80% ;
+  padding-left :80px ;
+  padding-top: 50px ;
+  font-size: 17px ; 
+  
+
+}
+h2 {
+  text-align: center ;
+  padding-top: 50px ;
+}
+.jumbotron {
+  background-color: white ; 
+}
+.backgroundexams {
+  background-color : blue ;
+
+}
+.paragraphabout {
+  padding-left : 50px ;
+  padding-top : 50px ;
+}
+.examimage {
+  display: flex ;
+  justify-content: space-around ;
+}
+.card-body {
+  display : flex ;
+  justify-content: space-around ;
+}
+.card {
+  background-color: #E7E7E7 ;
+  border : 13px solid #E7E7E7  ;
+}
+.devoir {
+  background-color: #E7E7E7 ;
+}
+
+.image {
+  width : 40% ;
+}
+.button {
+margin-left : 250px ;
+}
+.imgone-front-cover{
+  background-image: url('https://s3.eu-central-1.amazonaws.com/tutoria-cms/cms_content/1957/original/Nachhilfesituation.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center ;
+  text-align: center ; 
+  color: white ;
+  padding-top : 300px ;
+ 
+}
+.image-non-padder{
+  height : 75vh ; 
+  width: 75vh ;
+  padding: 0 ;
+}
+.imgtow-front-cover{
+background-image: url(
+
+'https://gbsn.org/wp-content/uploads/2016/10/elearning-video-chat-1046x588.jpg' );
+background-size: cover;
+width: 100%;
+    height: 100%;
+    text-align: center ; 
+    color: white ;
+    padding-top : 300px ;
+
+}
+.title {
+  text-align: center ;
+}
+footer {
+  background-color : #0E2C48 ; }
+
+
+
+@media screen and (max-width: 900px) {
+  ul {
+  margin-left : 2px ;
   }
-  to {
-    transform: rotate(360deg);
-  }
 }
+.center{
+  padding: 150px ;
+}
+
